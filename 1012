@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    double Base_A,Base_B,Height_C;
+
+    scanf("%lf %lf %lf",&Base_A,&Base_B,&Height_C);
+
+    printf("TRIANGULO: %.3lf\n",0.5*Base_A*Height_C);
+    printf("CIRCULO: %.3lf\n",3.14159*Height_C*Height_C);
+    printf("TRAPEZIO: %.3lf\n",0.5*(Base_A+Base_B)*Height_C);
+    printf("QUADRADO: %.3lf\n",Base_B*Base_B);
+    printf("RETANGULO: %.3lf\n",Base_A*Base_B);
+    return 0;
+
+}
