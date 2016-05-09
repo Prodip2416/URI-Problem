@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,k,n;
+    scanf("%d",&n);
+
+    i=n/365;
+    j=n%365/30;
+    k=n%365%30;
+    printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n",i,j,k);
+    return 0;
+}
