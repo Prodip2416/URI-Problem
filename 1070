@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int n,i=6;
+    scanf("%d",&n);
+   while(i--)
+   {
+       if(n%2==0)
+        n++;
+        printf("%d\n",n);
+        n+=2;
+   }
+    return 0;
+}
