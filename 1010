@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,b[2],i;
+    float c[2],total;
+
+    for(i=0; i<2; i++)
+    {
+        scanf("%d %d %f",&a,&b[i],&c[i]);
+    }
+    total=(b[0]*c[0])+(b[1]*c[1]);
+    printf("VALOR A PAGAR: R$ %.2f\n",total);
+
+    return 0;
+
+}
