@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c,d,e,f,g,h;
+    scanf("%f",&a);
+
+    if(a<=2000.00)printf("Isento\n");
+    else if(a>=2000.01 && a<=3000.00)
+    {
+        b=a-2000;
+        c=(8*b)/100;
+        printf("R$ %.2f\n",c);
+    }
+    else if(a>=3000.01 && a<=4500.00)
+    {
+        b=a-2000;
+        c=b-1000;
+        d=(1000*8)/100;
+        e=(c*18)/100;
+        f=d+e;
+        printf("R$ %.2f\n",f);
+    }
+    else if(a>=4500.01)
+    {
+        b=a-2000;
+        c=b-1000;
+        d=c-1500;
+        e=(1000*8)/100;
+        f=(1500*18)/100;
+        g=(d*28)/100;
+        h=g+f+e;
+        printf("R$ %.2f\n",h);
+    }
+    return 0;
+}
