@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,i,j;
+    c=24;
+    scanf("%d %d",&a,&b);
+
+    i=c-a;
+    j=i+b;
+    if(j>c)
+    {
+        printf("O JOGO DUROU %d HORA(S)\n",j-c);
+       return 0;
+    }
+    printf("O JOGO DUROU %d HORA(S)\n",j);
+    return 0;
+}
