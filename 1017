@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    double time,velocity;
+    double result;
+    scanf("%lf %lf",&time,&velocity);
+
+    result=(time*velocity)/12;
+
+    printf("%.3lf\n",result);
+    return 0;
+
+}
